@@ -1,0 +1,49 @@
+grep "model name" /proc/cpuinfo | head -n1 >> /repogit/TP_AySO/datos_usuario.txt“feat: Añadiendo información de CPU”
+ls
+cd repogit/
+cd TP_AySO/
+ls
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+git status
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git status
+git commit -m "feat: Añadiendo información de CPU"
+grep --help
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada.txt
+ls
+nano lista_ordenada.txt
+clear
+git status
+git commit "ADD: Listado de usuarios ordenada"
+git commit -m "ADD: Listado de usuarios ordenada"
+git add .
+git commit "ADD: Listado de usuarios ordenada"
+git commit -m "ADD: Listado de usuarios ordenada"
+man dump
+man tcpdump
+echo "tcpdump" > comando_dump_net
+echo "man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+ls
+cat <<EOF >> README.md
+Alumno: Facundo Guidobono
+División: 312
+Turno: Noche
+EOF
+
+nano README.md 
+git add README.md 
+git commit -m "ADD: Datos alumno"
+ls -a
+cd
+ls -a
+cd ..
+ls -a
+cd vagrant/
+ls
+cd repogit/
+cd TP_AySO/
+ls
+history -a $HOME/.bash_history
